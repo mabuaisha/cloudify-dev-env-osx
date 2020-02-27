@@ -2,11 +2,19 @@
 HOME=/home/vagrant
 
 echo "################################################"
+echo "Upgrading setuptools..."
+echo "################################################"
+sudo pip install --upgrade 'setuptools<45.0.0'
+echo "Done"
+echo "################################################"
+
+
+echo "################################################"
 echo "Installing virtualenvwrapper..."
 echo "################################################"
 sudo pip install virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
-echo "################################################"
+echo "#########Create virtualenv#######################################"
 echo "Done"
 echo "################################################"
 

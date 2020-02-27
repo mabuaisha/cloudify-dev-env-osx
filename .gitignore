@@ -5,6 +5,7 @@ ssh_key
 
 # Big stuff
 .vagrant/*
+.idea/
 
 # Not important stuff
 ubuntu-xenial-16.04-cloudimg-console.log
